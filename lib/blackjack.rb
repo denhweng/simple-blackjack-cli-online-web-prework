@@ -34,7 +34,8 @@ end
 def hit?(num)
   prompt_user
   input = get_user_input
-  if input = s
+  if input = 's'
+    return card_
 end
 
 def invalid_command
