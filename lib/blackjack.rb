@@ -41,7 +41,7 @@ def hit?(num)
     current_card_total = card_total + deal_card
     return current_card_total
   else 
-    puts "Please enter a valid command."
+    invalid_command
     prompt_user
 end
 
