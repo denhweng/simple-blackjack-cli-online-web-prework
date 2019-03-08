@@ -40,6 +40,7 @@ def hit?(num)
     card_total += deal_card
   else 
     puts "Please enter a valid command."
+    prompt_user
 end
 
 def invalid_command
