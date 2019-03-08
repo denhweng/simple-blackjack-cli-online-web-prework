@@ -39,6 +39,7 @@ def hit?(num)
   elsif input = 'h'
     card_total += deal_card
     current_card_total = card_total + deal_card
+    return current_card_total
   else 
     puts "Please enter a valid command."
     prompt_user
